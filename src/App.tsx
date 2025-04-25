@@ -61,6 +61,27 @@ export default function App() {
           </button>
         </div>
       </nav>
+
+
+      <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-12 px-4 py-20 min-h-[70vh] mt-30 max-w-screen-xl mx-auto">
+  <div className="text-left space-y-4 max-w-xl">
+    <h2 className="text-6xl font-bold">I am Chhaya Verma</h2>
+    <p className="text-lg">
+      A passionate web developer crafting beautiful and responsive websites.
+    </p>
+    <div className="flex gap-4">
+      <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Let's Talk</button>
+      <button className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600">Download CV</button>
+    </div>
+  </div>
+  <div>
+    <img
+      src="https://images.unsplash.com/photo-1573164574472-797cdf4a583a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tYW4lMjBjb2Rpbmd8ZW58MHx8MHx8fDA%3D"
+      alt="Chhaya Verma"
+      className="w-96 h-96 rounded-full object-cover shadow-lg"
+    />
+  </div>
+</section>
     </div>
   );
 }
