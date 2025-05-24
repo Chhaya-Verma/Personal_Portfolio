@@ -17,7 +17,6 @@ const educationData: EducationItem[] = [
     date: "2017 - 2019",
     desc: "Completed with Science Stream from ABC School.",
   },
-  // Add more education data as needed
 ];
 
 const AboutSection: React.FC = () => {
@@ -63,11 +62,22 @@ const AboutSection: React.FC = () => {
           <div className="text-left w-full">
             <h3 className="text-xl font-semibold mb-4 text-purple-500">Personal Info</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <p><span className="font-semibold text-purple-400">Email:</span> chhaya@example.com</p>
-              <p><span className="font-semibold text-purple-400">Phone:</span> +91 9876543210</p>
-              <p><span className="font-semibold text-purple-400">Location:</span> Delhi, India</p>
-              <p><span className="font-semibold text-purple-400">LinkedIn:</span> linkedin.com/in/chhaya</p>
-              {/* Add more info as needed */}
+              <div className="bg-gray-900 p-4 rounded shadow">
+                <p className="text-sm text-gray-400 font-semibold">Email</p>
+                <p className="text-white">chhaya@example.com</p>
+              </div>
+              <div className="bg-gray-900 p-4 rounded shadow">
+                <p className="text-sm text-gray-400 font-semibold">Phone</p>
+                <p className="text-white">+91 9876543210</p>
+              </div>
+              <div className="bg-gray-900 p-4 rounded shadow">
+                <p className="text-sm text-gray-400 font-semibold">Location</p>
+                <p className="text-white">Delhi, India</p>
+              </div>
+              <div className="bg-gray-900 p-4 rounded shadow">
+                <p className="text-sm text-gray-400 font-semibold">LinkedIn</p>
+                <p className="text-white">linkedin.com/in/chhaya</p>
+              </div>
             </div>
           </div>
         </div>
