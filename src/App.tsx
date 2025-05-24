@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Skill from "./pages/Skills";
-import Project from "./pages/Projects";
+
 function App() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Services />
       <Skill />
-      <Project />
+     
     </div>
   );
 }
