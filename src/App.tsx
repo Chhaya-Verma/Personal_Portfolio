@@ -2,8 +2,10 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-// Import baaki pages if needed
-
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Skill from "./pages/Skills";
+import Project from "./pages/Projects";
 function App() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -11,7 +13,10 @@ function App() {
     <div className={`min-h-screen ${darkMode ? "bg-black text-white" : "bg-white text-black"}`}>
       <Navbar darkMode={darkMode} toggleDarkMode={() => setDarkMode(!darkMode)} />
       <Home />
-      {/* Add more pages below if needed */}
+      <About />
+      <Services />
+      <Skill />
+      <Project />
     </div>
   );
 }
